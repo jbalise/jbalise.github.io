@@ -1,3 +1,11 @@
 body {
-	background: <img src="images/boston.jpeg>;
+	text-align: center;
+	background: <img src="images/boston.jpg>";
+}
+h1 {
+	color: rgb(84108255);
+	font-size: 36 px;
+}
+#slogan {
+	font-style: italic;
 }
