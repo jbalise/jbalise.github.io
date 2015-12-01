@@ -1,9 +1,8 @@
 body {
 	text-align: center;
-	background: <img src="images/boston.jpeg>";
 }
 h1 {
-	color: rgb(841,08,255);
+	color: rgb(84,108,255);
 	font-size: 36 px;
 }
 #slogan {
