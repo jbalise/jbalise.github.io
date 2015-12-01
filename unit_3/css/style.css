@@ -1,11 +1,15 @@
 body {
 	text-align: center;
-	background: <img src="images/boston.jpg>";
+	background: <img src="images/boston.jpeg>";
 }
 h1 {
-	color: rgb(84108255);
+	color: rgb(841,08,255);
 	font-size: 36 px;
 }
 #slogan {
 	font-style: italic;
+}
+ul {
+    text-align: center;
+    list-style-type: none;
 }
