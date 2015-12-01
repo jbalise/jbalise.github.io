@@ -1,14 +1,13 @@
 body {
-	text-align: center;
+	background: url("https://images.unsplash.com/photo-1430609098125-581618d0482f?crop=entropy&fit=crop&fm=jpg&h=800&ixjsv=2.0.0&ixlib=rb-0.3.5&q=80&w=1450");
+	background-size: cover;
 }
 h1 {
-	color: rgb(84,108,255);
+	text-align: center;
+	color: #FFF00B;
 	font-size: 36 px;
 }
 #slogan {
 	font-style: italic;
-}
-ul {
-    text-align: center;
-    list-style-type: none;
+	text-align: center;
 }
