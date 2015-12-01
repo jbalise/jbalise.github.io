@@ -3,9 +3,9 @@ body {
 	background-size: cover;
 }
 h1 {
+	font-size: 40px;
 	text-align: center;
 	color: #FFF00B;
-	font-size: 46 px;
 }
 #slogan {
 	font-style: italic;
