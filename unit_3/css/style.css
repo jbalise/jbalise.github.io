@@ -1,6 +1,6 @@
 body {
 	background: url("../images/boston.jpeg");
-	background-size: 100% 200%;
+	background-size: cover;
     background-repeat: no-repeat;
     font-family: Helvetica;
 }
@@ -9,7 +9,31 @@ h1 {
 	text-align: center;
 	color: #FFF00B;
 }
+
+nav {
+	background-color: black;
+	height: 30px;
+}
+img {
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.navlinks {
+	margin-right: auto;
+	margin-left: auto;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.list {
+	border: 1px solid white;
+}
+
 #slogan {
 	font-style: italic;
 	text-align: center;
 }
+
