@@ -1,36 +1,41 @@
 body {
-	background: url("../images/boston.jpeg");
+	background: url("https://images.unsplash.com/photo-1430263326118-b75aa0da770b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=aa7842609df3986db798c15162e01aeb");
 	background-size: cover;
     background-repeat: no-repeat;
     font-family: Helvetica;
 }
 h1 {
-	font-size: 40px;
+	font-size: 50px;
 	text-align: center;
-	color: #FFF00B;
+	color: #D8E07B;
 }
 
 nav {
-	background-color: black;
+	background-color: #D8E07B;
 	height: 30px;
+	font-family: serif;
 }
 img {
-	width: 300px;
 	margin-right: auto;
 	margin-left: auto;
+	display: block;
+}
+p,ul {
+	font-family: serif;
+}
+a {
+	text-decoration: none;
 }
 
 .navlinks {
-	margin-right: auto;
-	margin-left: auto;
+	margin-left: 20px;
+	margin-top: 10px;
 	text-decoration: none;
-	color: white;
+	color: blue;
 	font-weight: bold;
 }
 
-.list {
-	border: 1px solid white;
-}
+
 
 #slogan {
 	font-style: italic;
