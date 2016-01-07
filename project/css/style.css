@@ -113,21 +113,10 @@ a:hover {
 	margin: 20px;
 }
 
-#chocolate {
+.offices {
 	float: left;
-	width: 32.4%;
-	margin-right: 10px;
-}
-
-#pixar {
-	float: left;
-	width: 32.4%
-}
-
-#googleplex {
-	float: left;
-	width: 32.4%;
-	margin-left: 10px;
+	width: 32%;
+	margin: 0px 5px;
 }
 
 #skills_text {
