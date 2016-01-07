@@ -1,0 +1,200 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+
+header {
+	background-color: #2467E3;
+}
+
+h1 {
+	font-family: 'PT Serif', serif;
+	font-size: 50px;
+	color: white;
+	padding: 70px 30px;
+}
+
+nav {
+	background-color: white;
+	padding: 10px;
+	position: fixed;
+	width: 100%;
+	top:0;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: #3C4345;
+	font-size: 26px;
+	margin: 0px 20px;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: #3C4345;
+	margin: 20px;
+}
+
+p {
+	color: #3C4345;
+	font-family: 'PT Serif', serif;
+	margin: 5px 20px;
+}
+
+aside {
+	background: #2467E3;
+	width: 100%;
+	overflow: auto;
+	margin: 20px 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+	font-family: 'Open Sans', sans-serif;
+	background: white;
+	color: #3C4345;
+	text-align: center;
+	width: 31%;
+	float: left;
+	height: 25px;
+	padding: 5px;
+	font-size: 18px;
+	outline: 3px solid #2467E3;
+	margin: 5px;
+}
+
+footer {
+	background-color: #2467E3;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.navlinks{
+	font-family: 'Open Sans', sans-serif;
+	color: #2467E3;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 20px;
+	font-size: 18px;
+}
+
+a:hover {
+	color: #8C9496;
+}
+
+.photo {
+	width: 100%;
+}
+
+.social {
+	background: white;
+	outline: none;
+	width: 5%;
+}
+
+#journalism, #running, #about {
+	width: 75%;
+	display:block;
+	margin: auto;
+}
+
+#three_column {
+	width: 100%;
+	margin: 20px;
+}
+
+#chocolate {
+	float: left;
+	width: 32.4%;
+	margin-right: 10px;
+}
+
+#pixar {
+	float: left;
+	width: 32.4%
+}
+
+#googleplex {
+	float: left;
+	width: 32.4%;
+	margin-left: 10px;
+}
+
+#skills_text {
+	font-family: 'PT Serif', serif;
+	font-size: 30px;
+	color: white;
+	padding: 15px 15px;
+}
+
+#skills {
+	width: 25%;
+	display: inline-block;
+	float: left;
+}
+
+#skills_list {
+	width: 75%;
+	display: inline-block;
+	float: right;
+}
+
+#two_column {
+	width: 100%;
+	margin: 20px;
+}
+
+#marathon {
+	float: left;
+	width: 25%;
+}
+
+#run_text {
+	float: right;
+	width: 75%;
+}
+
+#about_column {
+	width: 100%;
+	margin: 20px;
+}
+
+#left {
+	float:right;
+	width: 75%;
+}
+
+#right {
+	float:left;
+	width: 25%;
+}
+
+#name {
+	text-transform: uppercase;
+}
+
+#footer_text {
+	font-family: 'PT Serif', serif;	color: white;
+	margin: 20px;
+	padding: 10px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#social_buttons {
+	float: left;
+	background-color: white;
+	width: 100%;
+	overflow: auto;
+	height: 100px;
+}
