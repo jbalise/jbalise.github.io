@@ -266,11 +266,17 @@ a:hover {
 }
 
 @media screen and (max-width: 480px) {
+	h1 {
+		padding-top: 2em;
+	}
 	h2{
 		font-size: 1.6em;
 	}
 	h2, p {
 		margin-left: .8em;
+	}
+	.navlinks {
+		font-size: .9em;
 	}
 	.disappear2 {
 		display:none;
