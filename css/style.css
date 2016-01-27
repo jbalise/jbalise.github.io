@@ -38,19 +38,19 @@ h2, h3, li {
 h2 {
 	font-weight: bold;
 	font-size: 1.8em;
-	margin: .8em;
+	margin: .5em;
 }
 
 h3 {
 	font-weight: bold;
-	margin: 1.25em;
+	margin: .5em;
 	font-size: 1.2em;
 }
 
 p {
 	font-family: 'PT Serif', serif;
 	font-size: 1em;
-	margin: .33em 1.25em;
+	margin: .33em .5em;
 }
 
 aside {
@@ -124,8 +124,8 @@ a:hover {
 
 .offices {
 	float: left;
-	width: 32%;
-	margin: 0em .33em;
+	width: 31%;
+	margin: .5%;
 }
 
 #web {
@@ -257,4 +257,8 @@ a:hover {
 	#web, #skills, #skills_list, #social_buttons {
 		display: none;
 	}
+}
+
+@media screen and (max-width: 480px) {
+
 }
