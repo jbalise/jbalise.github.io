@@ -129,6 +129,7 @@ a:hover {
 
 #web {
 	background-color: #2467E3;
+	margin-top: 1em;
 }
 
 #skills_text {
@@ -165,7 +166,6 @@ a:hover {
 
 #about_column {
 	width: 100%;
-	margin: 1.25em;
 }
 
 #left {
@@ -289,5 +289,4 @@ a:hover {
 	#two_column, #three_column {
 		margin: 1.25em;
 	}
-}
 }
