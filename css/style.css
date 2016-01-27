@@ -257,9 +257,18 @@ a:hover {
 	#web, #skills, #skills_list, #social_buttons {
 		display: none;
 	}
+	#journalism, #running, #about {
+		width: 80%;
+		display:block;
+		margin: 0px;
+		padding: 0px;
+	}
 }
 
 @media screen and (max-width: 480px) {
+	.disappear2 {
+		display:none;
+	}
 	#journalism, #running, #about {
 		width: 90%;
 		display:block;
