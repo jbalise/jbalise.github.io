@@ -266,6 +266,12 @@ a:hover {
 }
 
 @media screen and (max-width: 480px) {
+	h2{
+		font-size: 1.6em;
+	}
+	h2, p {
+		margin-left: .8em;
+	}
 	.disappear2 {
 		display:none;
 	}
