@@ -19,7 +19,7 @@ h1 {
 	font-family: 'PT Serif', serif;
 	font-size: 3em;
 	color: white;
-	padding: 4.5em 2em;
+	padding: 2em;
 }
 
 nav {
@@ -30,15 +30,15 @@ nav {
 	top:0;
 }
 
-h2, h3, p , li {
+h2, h3, li {
 	font-family: 'Open Sans', sans-serif;
 	color: #3C4345;
 	} 
 
 h2 {
 	font-weight: bold;
-	font-size: 2em;
-	margin: 1.25em;
+	font-size: 1.8em;
+	margin: .8em;
 }
 
 h3 {
@@ -48,6 +48,7 @@ h3 {
 }
 
 p {
+	font-family: 'PT Serif', serif;
 	font-size: 1em;
 	margin: .33em 1.25em;
 }
@@ -71,7 +72,7 @@ li {
 	padding: .33em;
 	font-size: 1em;
 	outline: .18em solid #2467E3;
-	margin: .33em;
+	margin: .6em;
 }
 
 footer {
@@ -125,6 +126,10 @@ a:hover {
 	float: left;
 	width: 32%;
 	margin: 0em .33em;
+}
+
+#web {
+	background-color: #2467E3;
 }
 
 #skills_text {
@@ -190,4 +195,66 @@ a:hover {
 	overflow: auto;
 	height: 6.25em;
 	margin-left: .7em;
+}
+
+@media screen and (max-width: 1200px){
+	body {
+		font-size: 14px;
+	}
+	#skills {
+		display: none;
+	}
+	#skills_list {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 915px) {
+	.offices {
+		float: none;
+		width: auto;
+		margin-top: .82em;
+	}
+	h3 {
+		margin: .8em;
+	}
+	#marathon, #run_text {
+		float: none;
+		width: auto;
+	}
+	#left {
+		float: none;
+		width: auto;
+	}	
+	#right {
+		display: none;
+	}
+	#skills {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 750px){
+	h1 {
+		font-size: 2.5em;
+	}
+	#skills {
+		display: none;
+	}
+	#right {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 720px){
+	h1 {
+		font-size: 2em;
+		padding-top: 3em;
+	}
+	.disappear {
+		display:none;
+	}
+	#web, #skills, #skills_list, #social_buttons {
+		display: none;
+	}
 }
