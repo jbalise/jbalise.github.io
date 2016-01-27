@@ -289,4 +289,7 @@ a:hover {
 	#two_column, #three_column {
 		margin: 1.25em;
 	}
+	#about_column {
+		margin-left: 1.25em;
+	}
 }
