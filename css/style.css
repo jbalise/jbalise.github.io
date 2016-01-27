@@ -257,4 +257,7 @@ a:hover {
 	#web, #skills, #skills_list, #social_buttons {
 		display: none;
 	}
+	#journalism, #running, #about {
+		width: 90%;
+	}
 }
