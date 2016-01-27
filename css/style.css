@@ -259,5 +259,6 @@ a:hover {
 	}
 	#journalism, #running, #about {
 		width: 90%;
+		margin: auto;
 	}
 }
