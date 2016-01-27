@@ -101,6 +101,12 @@ a:hover {
 	color: #8C9496;
 }
 
+.offices {
+	float: left;
+	width: 31.5%;
+	margin: .5%;
+}
+
 .photo {
 	width: 100%;
 }
@@ -119,13 +125,6 @@ a:hover {
 
 #three_column {
 	width: 100%;
-	margin: 1.25em;
-}
-
-.offices {
-	float: left;
-	width: 31%;
-	margin: .5%;
 }
 
 #web {
@@ -152,7 +151,6 @@ a:hover {
 
 #two_column {
 	width: 100%;
-	margin: 1.25em;
 }
 
 #marathon {
@@ -215,6 +213,10 @@ a:hover {
 		width: auto;
 		margin-top: .82em;
 	}
+	.photo {
+		display: block;
+		margin-right: auto;
+	}
 	h3 {
 		margin: .8em;
 	}
@@ -259,7 +261,7 @@ a:hover {
 	}
 	#journalism, #running, #about {
 		width: 85%;
-		display:block;
+		display: block;
 		margin: auto;
 		padding: 0px;
 	}
@@ -280,7 +282,7 @@ a:hover {
 	}
 	#journalism, #running, #about {
 		width: 90%;
-		display:block;
+		display: block;
 		margin: 0px;
 		padding: 0px;
 	}
