@@ -260,5 +260,10 @@ a:hover {
 }
 
 @media screen and (max-width: 480px) {
-
+	#journalism, #running, #about {
+		width: 90%;
+		display:block;
+		margin: 0px;
+		padding: 0px;
+	}
 }
