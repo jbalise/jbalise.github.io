@@ -280,6 +280,9 @@ a:hover {
 	.navlinks {
 		font-size: .7em;
 	}
+	.indent {
+		margin-left: 1.25em;
+	}
 	.disappear2 {
 		display:none;
 	}
