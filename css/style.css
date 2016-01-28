@@ -271,8 +271,11 @@ a:hover {
 	h2{
 		font-size: 1.6em;
 	}
-	h2, p {
+	h2 {
 		margin-left: .8em;
+	}
+	p {
+		margin: 1.25em;
 	}
 	.navlinks {
 		font-size: .7em;
@@ -280,16 +283,13 @@ a:hover {
 	.disappear2 {
 		display:none;
 	}
+	.photo {
+		margin: 1.25em;
+	}
 	#journalism, #running, #about {
 		width: 90%;
 		display: block;
 		margin: 0px;
 		padding: 0px;
-	}
-	#two_column, #three_column {
-		margin: 1.25em;
-	}
-	#about_column {
-		margin-left: 1.25em;
 	}
 }
