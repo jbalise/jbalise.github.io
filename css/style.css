@@ -277,6 +277,9 @@ a:hover {
 	p {
 		margin: 1.25em;
 	}
+	nav {
+		text-align: center;
+	}
 	.navlinks {
 		font-size: .7em;
 	}
