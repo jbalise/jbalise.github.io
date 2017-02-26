@@ -29,7 +29,6 @@
   background-color: white;
 }
 
-
 .color-option {
   cursor: pointer;
   margin: 20px 2.5%;
@@ -41,6 +40,28 @@
 }
 
 
+.detail-option {
+  cursor: pointer;
+  margin: 20px 2.5%;
+  border: 1px solid #ddd;
+}
+
+.detail-option:first-of-type {
+  margin-left: 6%;
+}
+
+.red {
+  background-color: #d40404;
+}
+
+.green {
+  background-color: #4d8c34;
+}
+
+.blue {
+  background-color: #4b9bfb;
+}
+
 .white {
   background-color: #ffffff;
 }
@@ -51,10 +72,6 @@
 
 .teal {
   background-color: #045b7c;
-}
-
-.yellow {
-  background-color: #f2ea04;
 }
 
 .red,
@@ -126,6 +143,18 @@
 }
 
 .color-option {
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.color-display {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.detail-option {
   height: 100px;
   background-size: contain;
   background-repeat: no-repeat;

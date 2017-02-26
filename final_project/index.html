@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Build your car!</title>
+  <title>Build your shoe!</title>
   <!-- bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <!-- custom css -->
@@ -9,20 +9,20 @@
 </head>
 <body>
 
-  <!-- Template for color options -->
+  <!-- Template for vehicle options -->
   <script id="color-options-template" type="text/x-handlebars-template">
-    <div class="col-md-6 color-option {{choice}}" data-panel="color" data-price="{{price}}" data-option="{{choice}}"></div>
+    <div class="col-xs-3 color-option {{choice}}" data-panel="color" data-price="{{price}}" data-option="{{choice}}"></div>
   </script>
 
-  <!-- Template for detail options -->
+  <!-- Template for color options -->
   <script id="detail-options-template" type="text/x-handlebars-template">
     <div class="col-xs-3 panel-body detail-option {{choice}}" data-panel="detail" data-price="{{price}}" data-option="{{choice}}"></div>
   </script>
 
-  <!-- Template for extra options -->
+  <!-- Template for package options -->
   <script id="extra-options-template" type="text/x-handlebars-template">
     <div class="panel panel-default">
-      <div class="panel-heading extra-option" data-panel="extra" data-price="{{price}}" data-option="{{choice}}">
+      <div class="panel-heading extra-option" data-panel="extra"data-price="{{price}}" data-option="{{choice}}">{{choice}}</div>
     </div>
   </script>
 

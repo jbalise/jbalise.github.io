@@ -1,24 +1,21 @@
+// grab node you want to append template to
 var $optionsContainer = $('#options-display');
 
-//step 2 create arrays for each main color of shoe
-
-//main color for shoe
+// define car options to be used for template
 var colorOptions = [
 	{choice: 'red', price: 80},
 	{choice: 'green', price: 80},
-	{choice: 'black', price: 100},
-	{choice: 'white', price: 100}
+	{choice: 'blue', price: 100},
 ];
 
-//detail color for shoe
+// define color options to be used for template
 var detailOptions = [
-	{choice: 'blue', price: 0},
-	{choice: 'yellow', price: 0},
-	{choice: 'silver', price: 10},
-	{choice: 'orange', price: 10}
+	{choice: 'white', price: 0},
+	{choice: 'purple', price: 0},
+	{choice: 'teal', price: 10},
 ];
 
-//add-ons for shoe
+// define car package option
 var extraOptions = [
 	{choice: 'Waterproof', price: 30},
 	{choice: 'Reflective', price: 50},
@@ -26,30 +23,31 @@ var extraOptions = [
 	{choice: 'Extra Laces', price: 15}
 ];
 
-// step 3
-
 var shoeSelection = {
-	color: {choice: 'Not Selected', price: 0},
-	detail: {choice: 'Not Selected', price: 0},
-	extra: {choice: 'Not Selected', price: 0}
-}
+  color: {choice: 'Not Selected', price: 0},
+  detail: {choice: 'Not Selected', price: 0},
+  extra: {choice: 'Not Selected', price: 0}
+};
 
-// add class .active to li
 
+// add click event to li nodes that will handle style changes
+// and dynamically render DOM specific to option selected
 $('li').on('click', function() {
 
+  // remove active styling from all lis then add active styling to clicked li
+  $('li').removeClass('active');
+  $(this).addClass('active');
 
-	$('li').removeClass('active')
-	$(this).addClass('active')
+  // Find out which tab was clicked
+  var tabOption = $(this).data('tab');
 
-	var tabOption = $(this).data('tab');
+  // Empty out the container that will display the options
+  $optionsContainer.empty();
 
-	$optionsContainer.empty();
+  displayPanelContent(tabOption);
 
-	displayPanelContent(tabOption);
 });
 
-// step 4 - switch function
 
 function displayPanelContent (contentType) {
   var source = $('#' + contentType + '-options-template').html();
@@ -71,49 +69,50 @@ function displayPanelContent (contentType) {
   }
 }
 
-
 function renderOptions(options, template, contentType) {
 
-	if (contentType === 'summary') {
-		var html = template(options);
-		$optionsContainer.append(html);
-	}
+  if (contentType === 'summary') {
+    var html = template(options);
+    $optionsContainer.append(html);
 
-	else {
-		for (var i = 0; i < options.length; i++) {
-			var html = template(options[i]);
+  } else {
+    for (var i = 0; i < options.length; i++) {
 
-			$oprionsContainer.append(html);
-		}
-	}
+      var html = template(options[i]);
+
+      $optionsContainer.append(html);
+    }
+  }
+
 }
 
-$('.options-container').on('click', 'div[class*="option"]', function() {
-	var panel = $(this).data('panel');
+$('.options-container').on('click', 'div[class*="option"]', function () {
+  var panel = $(this).data('panel');
 
-	shoeSelection[panel].choice = $(this).data('option');
-	shoeSelection[panel].price = $(this).data('price');
+  shoeSelection[panel].choice = $(this).data('option');
+  shoeSelection[panel].price = $(this).data('price');
 
-	if (shoeSelection.detail.choice !== 'Not Selected' && shoeSelection.color.choice !== 'Not Selected') {
-		$('.shoe-display').attr('src', 'assets/' + shoeSelection.color.choice + '-' +shoeSelection.detail.choice + '.png');
-	} else if (shoeSelection.color.choice !== 'Not Selected') {
-		$('.shoe-display').attr('src', 'assets/' + shoeSelection.color.choice + '.jpg');
-	}
+  if (shoeSelection.detail.choice !== 'Not Selected' && shoeSelection.color.choice !== 'Not Selected') {
+    $('.shoe-display').attr('src', 'assets/' + shoeSelection.color.choice + '-' + shoeSelection.detail.choice + '.png');
+  } else if (shoeSelection.color.choice !== 'Not Selected') {
+    $('.shoe-display').attr('src', 'assets/' + shoeSelection.color.choice + '-' + 'white' + '.png');
+  }
 
-	updateCost();
+  updateCost();
 });
 
+
 function updateCost () {
-	var cost = shoeSelection.detail.price + shoeSelection.color.price + shoeSelection.extra.price;
+  var cost = shoeSelection.detail.price + shoeSelection.color.price + shoeSelection.extra.price;
 
-	cost = moneyFormat(cost);
+  cost = moneyFormat(cost);
 
-	$('.cost-display').text('$' + cost);
-
+  $('.cost-display').text('$' + cost);
 }
 
 function moneyFormat(number) {
     return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
-displayPanelContent('shoe');
+
+displayPanelContent('vehicle');
