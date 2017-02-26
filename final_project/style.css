@@ -1,0 +1,172 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.app-container {
+  height: 100vh;
+}
+
+.navigation {
+  margin-bottom: 5%;
+}
+
+.options-container {
+  height: 100vh;
+  min-height: 400px;
+  position: relative;
+  padding: 20px 0 0;
+  border-right: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.demo-container {
+  height: 100vh;
+  min-height: 400px;
+}
+
+.navbar-fixed-bottom {
+  background-color: white;
+}
+
+
+.color-option {
+  cursor: pointer;
+  margin: 20px 2.5%;
+  border: 1px solid #ddd;
+}
+
+.color-option:first-of-type {
+  margin-left: 6%;
+}
+
+
+.white {
+  background-color: #ffffff;
+}
+
+.purple {
+  background-color: #e304fb;
+}
+
+.teal {
+  background-color: #045b7c;
+}
+
+.yellow {
+  background-color: #f2ea04;
+}
+
+.red,
+.red-white {
+  background: url('assets/red-white.png');
+}
+
+.red-purple {
+  background: url('assets/red-purple.png');
+}
+
+.red-teal {
+  background: url('assets/red-teal.png');
+}
+
+.red-yellow {
+  background: url('assets/red-yellow.png');
+}
+
+.green,
+.green-white {
+  background: url('assets/green-white.png');
+}
+
+.green-purple {
+  background: url('assets/green-purple.png');
+}
+
+.green-teal {
+  background: url('assets/green-teal.png');
+}
+
+.green-yellow {
+  background: url('assets/green-yellow.png');
+}
+
+.gray,
+.gray-white {
+  background: url('assets/gray-white.png');
+}
+
+.gray-purple {
+  background: url('assets/gray-purple.png');
+}
+
+.gray-teal {
+  background: url('assets/gray-teal.png');
+}
+
+.gray-yellow {
+  background: url('assets/gray-yellow.png');
+}
+
+.blue,
+.blue-white {
+  background: url('assets/blue-white.png');
+}
+
+.blue-purple {
+  background: url('assets/blue-purple.png');
+}
+
+.blue-teal {
+  background: url('assets/blue-teal.png');
+}
+
+.blue-yellow {
+  background: url('assets/blue-yellow.png');
+}
+
+.color-option {
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.detail-display {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.extra-option {
+  cursor: pointer;
+}
+
+.cost {
+  display: inline;
+}
+
+.price-anchor {
+  font-weight: bold;
+  font-size: 4rem;
+  margin-left: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+
+.summary-option ul {
+  padding-left: 15px;
+}
+
+.summary-option li {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+
+li span {
+  text-transform: capitalize;
+}
