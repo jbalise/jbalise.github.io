@@ -262,8 +262,8 @@ a:hover {
 	#web, #skills, #skills_list, #social_buttons {
 		display: none;
 	}
-	#journalism, #running, #about {
-		width: 85%;
+	#journalism, #marketing, #about {
+		width: 95%;
 		display: block;
 		margin: auto;
 		padding: 0px;
@@ -293,7 +293,7 @@ a:hover {
 	.photo {
 		margin: 1.25em;
 	}
-	#journalism, #running, #about {
+	#journalism, #marketing, #left {
 		width: 90%;
 		display: block;
 		margin: 0px;
