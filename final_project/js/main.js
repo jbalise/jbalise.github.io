@@ -1,21 +1,24 @@
-// grab node you want to append template to
 var $optionsContainer = $('#options-display');
 
-// define car options to be used for template
+
+//step 2 create arrays for each option of shoe
+
+//main color for shoe
+
 var colorOptions = [
 	{choice: 'red', price: 80},
-	{choice: 'green', price: 80},
+	{choice: 'green', price: 90},
 	{choice: 'blue', price: 100},
 ];
 
-// define color options to be used for template
+//detail color for shoe
 var detailOptions = [
 	{choice: 'white', price: 0},
-	{choice: 'purple', price: 0},
-	{choice: 'teal', price: 10},
+	{choice: 'purple', price: 10},
+	{choice: 'teal', price: 20},
 ];
 
-// define car package option
+//add-ons for shoe
 var extraOptions = [
 	{choice: 'Waterproof', price: 30},
 	{choice: 'Reflective', price: 50},
@@ -23,31 +26,30 @@ var extraOptions = [
 	{choice: 'Extra Laces', price: 15}
 ];
 
+// step 3
+
 var shoeSelection = {
   color: {choice: 'Not Selected', price: 0},
   detail: {choice: 'Not Selected', price: 0},
   extra: {choice: 'Not Selected', price: 0}
 };
 
+// add class .active to li
 
-// add click event to li nodes that will handle style changes
-// and dynamically render DOM specific to option selected
 $('li').on('click', function() {
 
-  // remove active styling from all lis then add active styling to clicked li
   $('li').removeClass('active');
   $(this).addClass('active');
 
-  // Find out which tab was clicked
   var tabOption = $(this).data('tab');
 
-  // Empty out the container that will display the options
   $optionsContainer.empty();
 
   displayPanelContent(tabOption);
 
 });
 
+// step 4 - switch function
 
 function displayPanelContent (contentType) {
   var source = $('#' + contentType + '-options-template').html();
@@ -86,6 +88,8 @@ function renderOptions(options, template, contentType) {
 
 }
 
+// step 6 - change image
+
 $('.options-container').on('click', 'div[class*="option"]', function () {
   var panel = $(this).data('panel');
 
@@ -101,6 +105,7 @@ $('.options-container').on('click', 'div[class*="option"]', function () {
   updateCost();
 });
 
+//step 7 - price function
 
 function updateCost () {
   var cost = shoeSelection.detail.price + shoeSelection.color.price + shoeSelection.extra.price;

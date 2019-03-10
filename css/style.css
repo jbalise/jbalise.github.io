@@ -19,7 +19,8 @@ h1 {
 	font-family: 'PT Serif', serif;
 	font-size: 3em;
 	color: white;
-	padding: 2em;
+	padding: .75em;
+	padding-top: 1.5em;
 }
 
 nav {
@@ -33,6 +34,8 @@ nav {
 h2, h3, li {
 	font-family: 'Open Sans', sans-serif;
 	color: #3C4345;
+	padding-top: .5em;
+	padding-bottom: .5em;
 	} 
 
 h2 {
@@ -43,14 +46,13 @@ h2 {
 
 h3 {
 	font-weight: bold;
-	margin: .5em;
+
 	font-size: 1.2em;
 }
 
 p {
 	font-family: 'PT Serif', serif;
 	font-size: 1em;
-	margin: .33em .5em;
 }
 
 aside {
@@ -117,8 +119,8 @@ a:hover {
 	width: 5%;
 }
 
-#journalism, #running, #about {
-	width: 75%;
+#journalism, #marketing, #about {
+	width: 95%;
 	display:block;
 	margin: auto;
 }
@@ -130,6 +132,7 @@ a:hover {
 #web {
 	background-color: #2467E3;
 	margin-top: 1em;
+	padding-left: 2em;
 }
 
 #skills_text {
@@ -171,6 +174,7 @@ a:hover {
 #left {
 	float:right;
 	width: 75%;
+	padding-left: 1.5em;
 }
 
 #right {
@@ -192,7 +196,6 @@ a:hover {
 	width: 100%;
 	overflow: auto;
 	height: 6.25em;
-	margin-left: .7em;
 }
 
 @media screen and (max-width: 1200px){
@@ -283,9 +286,7 @@ a:hover {
 	.navlinks {
 		font-size: .8em;
 	}
-	.indent {
-		margin-left: 1.25em;
-	}
+
 	.disappear2 {
 		display:none;
 	}
