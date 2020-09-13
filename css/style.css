@@ -46,7 +46,7 @@ h2, h3, li {
 h2 {
 	font-weight: bold;
 	font-size: 1.8em;
-	
+	color:#6C9961;
 }
 
 h3 {
@@ -64,20 +64,7 @@ p {
 
 
 
-ul {
-    list-style-type: none;
-}
 
-li {
-	background: white;
-	text-align: center;
-	width: 31%;
-	float: left;
-	padding: .33em;
-	font-size: 1em;
-	outline: .18em solid #2467E3;
-	margin: .6em;
-}
 
 footer {
 	background-color: #6C9961;
@@ -106,7 +93,7 @@ a:hover {
 }
 
 
-#workabout, #marketing, #about {
+#interests, #schoolandwork, #about {
 	width: 40%;
 	text-align:center;
 	margin:auto;
@@ -272,7 +259,7 @@ a:hover {
 	#web, #skills, #skills_list, #social_buttons {
 		display: none;
 	}
-	#workabout, #marketing, #about {
+	#interests, #schoolandwork, #about {
 		width: 80%;
 		display: block;
 		margin: auto;
@@ -303,7 +290,7 @@ a:hover {
 	.photo {
 		margin: 1.25em;
 	}
-	#workabout, #marketing, #left {
+	#interests, #schoolandwork, #left {
 		width: 80%;
 		display: block;
 		margin: 10%;
