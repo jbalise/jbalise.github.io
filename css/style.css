@@ -341,7 +341,9 @@ a:hover {
 		padding-top: 1em;
 		margin-bottom: -.5em;
 	}
-	
+	nav {
+		text-align: center;
+	}
 	.mySlides {
 		width:70%;
 		margin: auto;
@@ -379,7 +381,7 @@ a:hover {
 		margin: auto;
 	}
 	.navlinks {
-		font-size: .8em;
+		font-size: 1.25em;
 	}
 
 	.disappear2 {
