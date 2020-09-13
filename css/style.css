@@ -295,20 +295,13 @@ a:hover {
 }
 
 @media screen and (max-width: 915px) {
-	.offices {
-		float: none;
-		width: auto;
-		margin-top: .82em;
-	}
+	
 	.photo {
 		display: block;
 		margin-right: auto;
 	}
 	
-	#marathon, #run_text {
-		float: none;
-		width: auto;
-	}
+	
 	#left {
 		float: none;
 		width: auto;
@@ -316,9 +309,7 @@ a:hover {
 	#right {
 		display: none;
 	}
-	#skills {
-		display: none;
-	}
+	
 	#left-top {
 	float: none;
 	width: auto;
@@ -331,6 +322,7 @@ a:hover {
 
 @media screen and (max-width: 750px){
 	h1 {
+		text-align: center;
 		font-size: 2.5em;
 	}
 	#skills {
@@ -343,7 +335,7 @@ a:hover {
 
 @media screen and (max-width: 720px){
 	h1 {
-		font-size: 2em;
+		text-align: center;
 		padding-top: 1em;
 		margin-bottom: -.5em;
 	}
