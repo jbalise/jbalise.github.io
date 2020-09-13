@@ -295,7 +295,9 @@ a:hover {
 	.navlinks {
 		font-size: 1.25em;
 	}
-
+	.disappear2 {
+		display:none;
+	}
 	
 	.photo {
 		margin: 1.25em;
