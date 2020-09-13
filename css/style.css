@@ -187,51 +187,6 @@ a:hover {
 	height: 6.25em;
 }
 
-@media screen and (max-width: 1200px){
-	body {
-		font-size: 14px;
-	}
-	#skills {
-		display: none;
-	}
-	#skills_list {
-		width: 100%;
-	}
-}
-
-@media screen and (max-width: 915px) {
-	.offices {
-		float: none;
-		width: auto;
-		margin-top: .82em;
-	}
-	.photo {
-		display: block;
-		margin-right: auto;
-	}
-	
-	#marathon, #run_text {
-		float: none;
-		width: auto;
-	}
-	#left {
-		float: none;
-		width: auto;
-	}	
-	#right {
-		display: none;
-	}
-	#skills {
-		display: none;
-	}
-	#left-top {
-	float: none;
-	width: auto;
-}
-#right-top {
-	float: none;
-	width: auto;
-}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -240,7 +195,10 @@ a:hover {
 }
 
 
-
+.mySlides {
+		width:90%;
+		margin: auto;
+}
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -321,6 +279,54 @@ a:hover {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
+
+@media screen and (max-width: 1200px){
+	body {
+		font-size: 14px;
+	}
+	#skills {
+		display: none;
+	}
+	#skills_list {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 915px) {
+	.offices {
+		float: none;
+		width: auto;
+		margin-top: .82em;
+	}
+	.photo {
+		display: block;
+		margin-right: auto;
+	}
+	
+	#marathon, #run_text {
+		float: none;
+		width: auto;
+	}
+	#left {
+		float: none;
+		width: auto;
+	}	
+	#right {
+		display: none;
+	}
+	#skills {
+		display: none;
+	}
+	#left-top {
+	float: none;
+	width: auto;
+	}
+	#right-top {
+	float: none;
+	width: auto;
+	}
 }
 
 @media screen and (max-width: 750px){
@@ -396,4 +402,5 @@ a:hover {
 		padding: 2em;
 	}
 }
+
 
