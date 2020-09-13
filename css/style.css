@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
 * { 
 	margin:0; 
@@ -50,21 +51,18 @@ h2 {
 
 h3 {
 	font-weight: bold;
-
-	font-size: 1.2em;
+	font-family: 'Special Elite', cursive;
+	font-size: 1em;
 }
 
 p {
 	font-family: 'PT Serif', serif;
 	font-size: 1.2em;
+	padding-top: .5em;
+	padding-bottom: .5em;
 }
 
-aside {
-	background: #2467E3;
-	width: 100%;
-	overflow: auto;
-	margin: 1.25em 0em;
-}
+
 
 ul {
     list-style-type: none;
@@ -107,26 +105,13 @@ a:hover {
 	color: #8C9496;
 }
 
-.offices {
-	float: left;
-	width: 31.5%;
-	margin: .5%;
-}
-
-.photo {
-	width: 100%;
-}
-
-.social {
-	background: white;
-	outline: none;
-	width: 5%;
-}
 
 #workabout, #marketing, #about {
-	width: 93%;
-	display:block;
-	margin: auto;
+	width: 40%;
+	text-align:center;
+	margin:auto;
+	padding:2em;
+
 }
 
 #three_column {
@@ -287,11 +272,11 @@ a:hover {
 	#web, #skills, #skills_list, #social_buttons {
 		display: none;
 	}
-	#journalism, #marketing, #about {
-		width: 95%;
+	#workabout, #marketing, #about {
+		width: 80%;
 		display: block;
 		margin: auto;
-		padding: 0px;
+		padding: 10%;
 	}
 }
 
@@ -318,11 +303,11 @@ a:hover {
 	.photo {
 		margin: 1.25em;
 	}
-	#journalism, #marketing, #left {
-		width: 90%;
+	#workabout, #marketing, #left {
+		width: 80%;
 		display: block;
-		margin: 0px;
-		padding: 0px;
+		margin: 10%;
+		padding: 10%;
 	}
 }
 
