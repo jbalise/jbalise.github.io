@@ -339,7 +339,7 @@ a:hover {
 	h1 {
 		font-size: 2em;
 		padding-top: 1em;
-		margin-bottom: -1em;
+		margin-bottom: -.5em;
 	}
 	
 	.mySlides {
@@ -362,7 +362,7 @@ a:hover {
 @media screen and (max-width: 480px) {
 	h1{
 		font-size: 1.6em;
-		margin-bottom: -1em;
+		margin-bottom: -.5em;
 	}
 	h2 {
 		margin-left: .8em;
