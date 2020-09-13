@@ -209,9 +209,7 @@ a:hover {
 		display: block;
 		margin-right: auto;
 	}
-	h3 {
-		margin: .8em;
-	}
+	
 	#marathon, #run_text {
 		float: none;
 		width: auto;
@@ -234,70 +232,6 @@ a:hover {
 	float: none;
 	width: auto;
 }
-}
-
-@media screen and (max-width: 750px){
-	h1 {
-		font-size: 2.5em;
-	}
-	#skills {
-		display: none;
-	}
-	#right {
-		display: none;
-	}
-}
-
-@media screen and (max-width: 720px){
-	h1 {
-		font-size: 2em;
-		padding-top: 3em;
-	}
-	.disappear {
-		display:none;
-	}
-	#web, #skills, #skills_list, #social_buttons {
-		display: none;
-	}
-	#interests, #schoolandwork, #about {
-		width: 80%;
-		display: block;
-		margin: auto;
-		padding: 10%;
-	}
-}
-
-@media screen and (max-width: 480px) {
-	h1{
-		font-size: 1.6em;
-	}
-	h2 {
-		margin-left: .8em;
-	}
-	p {
-		margin: 1.25em;
-	}
-	nav {
-		text-align: center;
-	}
-	.navlinks {
-		font-size: .8em;
-	}
-
-	.disappear2 {
-		display:none;
-	}
-	.photo {
-		margin: 1.25em;
-	}
-	#interests, #schoolandwork, #left {
-		width: 80%;
-		display: block;
-		margin: 10%;
-		padding: 10%;
-	}
-}
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -387,3 +321,77 @@ a:hover {
   from {opacity: .4}
   to {opacity: 1}
 }
+}
+
+@media screen and (max-width: 750px){
+	h1 {
+		font-size: 2.5em;
+	}
+	#skills {
+		display: none;
+	}
+	#right {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 720px){
+	h1 {
+		font-size: 2em;
+		padding-top: 1em;
+		margin-bottom: -1em;
+	}
+	
+	.mySlides {
+		width:70%;
+		margin: auto;
+	}
+	.disappear {
+		display:none;
+	}
+	#web, #skills, #skills_list, #social_buttons {
+		display: none;
+	}
+	#interests, #schoolandwork, #left {
+		width: 100%;
+		display: block;
+		padding: 2em;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	h1{
+		font-size: 1.6em;
+		margin-bottom: -1em;
+	}
+	h2 {
+		margin-left: .8em;
+	}
+	p {
+		margin: 1.25em;
+	}
+	nav {
+		text-align: center;
+	}
+
+	.mySlides {
+		width:70%;
+		margin: auto;
+	}
+	.navlinks {
+		font-size: .8em;
+	}
+
+	.disappear2 {
+		display:none;
+	}
+	.photo {
+		margin: 1.25em;
+	}
+	#interests, #schoolandwork, #left {
+		width: 100%;
+		display: block;
+		padding: 2em;
+	}
+}
+
