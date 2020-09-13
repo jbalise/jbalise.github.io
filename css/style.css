@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond');
 
 * { 
 	margin:0; 
@@ -12,14 +12,14 @@ body {
 }
 
 header {
-	background-color: #998961;
+	background-color: #F0E7D0;
 }
 
 h1 {
-	font-family: 'Lora', serif;
+	font-family: 'EB+Garamond', serif;
 	font-size: 2.5em;
-	color: white;
-
+	color: #3C4345;
+font-weight: normal;
 }
 
 a {
@@ -188,7 +188,7 @@ a:hover {
 
 #left-top {
 	float:left;
-	width: 50%;
+	width: 52%;
 	padding: 4%;
 }
 
