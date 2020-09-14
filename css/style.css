@@ -14,13 +14,17 @@ body {
 
 header {
 	background-color: #F0E7D0;
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-top:2%;
+	padding-bottom: 2%;
 }
 
 h1 {
 	font-family: 'EB+Garamond', serif;
 	font-size: 2.5em;
 	color: #3C4345;
-font-weight: normal;
+	font-weight: normal;
 }
 
 
@@ -97,14 +101,14 @@ a:hover {
 
 #left-top {
 	float:left;
-	width: 52%;
-	padding: 4%;
+	width: 54%;
+	padding: 2%;
 }
 
 #right-top {
 	float:right;
-	width: 45%;
-	padding:4%;
+	width: 40%;
+	padding:2%;
 
 }
 
