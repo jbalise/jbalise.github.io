@@ -32,7 +32,7 @@ h2 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 1.8em;
-	color:#643864;
+	color:#4683b6;
 }
 
 h3 {
@@ -51,7 +51,7 @@ p {
 }
 
 a {
-	color:#643864;
+	color:#4683b6;
 }
 
 nav {
@@ -63,7 +63,7 @@ nav {
 }
 
 footer {
-	background-color: #643864;
+	background-color: #4683b6;
 }
 
 .clearfix:after {
@@ -77,7 +77,7 @@ footer {
 
 .navlinks{
 	font-family: 'Open Sans', sans-serif;
-	color: #643864;
+	color: #4683b6;
 	text-decoration: none;
 
 	margin: 1.25em;
