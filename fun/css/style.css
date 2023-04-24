@@ -314,6 +314,9 @@ a:hover {
 		display: block;
 		padding: 2em;
 	}
+	.rsvp {
+		width: 50%;
+	}
 }
 
 
