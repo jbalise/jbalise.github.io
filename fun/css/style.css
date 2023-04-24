@@ -254,7 +254,9 @@ a:hover {
 		display: block;
 		padding: 2em;
 	}
-	
+	.rsvp {
+		width: 50%;
+	}
 }
 
 @media screen and (max-width: 720px){
@@ -278,6 +280,10 @@ a:hover {
 		width: 100%;
 		display: block;
 		padding: 2em;
+	}
+	
+	.rsvp {
+		width: 300;
 	}
 }
 
@@ -314,8 +320,9 @@ a:hover {
 		display: block;
 		padding: 2em;
 	}
+	
 	.rsvp {
-		width: 50%;
+		width: 300;
 	}
 }
 
